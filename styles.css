@@ -60,13 +60,14 @@ input:hover, textarea:hover{
 }
 
 input:focus, textarea:focus{
-    border-color: #f06449;
+    border-color: rgb(167, 9, 9);
 }
 
 
 .container{
     padding: 50px 0;
     width: 100%;
+   background-color: rgb(194, 189, 189)
 }
 
 .row{
@@ -74,6 +75,7 @@ input:focus, textarea:focus{
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 12px;
+    background-color: rgb(194, 189, 189);
 }
 .click{
     cursor: pointer;
@@ -95,7 +97,7 @@ input:focus, textarea:focus{
 }
 
 .orange{
-    color: #f06449 !important;
+    color: rgb(167, 9, 9) !important;
 }
 
 .link__hover-effect{
@@ -150,7 +152,7 @@ nav,
 }
 
 .dark-theme section{
-background-color: #242424;
+background-color: #242424 !important;
 }
 
 .dark-theme #personal-logo{
@@ -178,6 +180,7 @@ background-color: #242424;
 
 #landing-page{
     min-height: 100vh;
+    background-color: rgb(194, 189, 189);
 }
 
 .header{
@@ -203,7 +206,7 @@ background-color: #242424;
 }
 
 .social__link{
-    background-color: #f06449;
+    background-color: rgb(167, 9, 9);
     color: white;
     padding: 6px;
     width: 32px;
@@ -279,8 +282,8 @@ nav{
     height: 100px;
 }
 #personal-logo{
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
 }
 
 .nav__link-list{
@@ -410,8 +413,8 @@ nav{
 }
 
 .form__submit{
-    background-color: #f06449;
-    border: 2px solid #f06449;
+    background-color: rgb(167, 9, 9);
+    border: 2px solid rgb(167, 9, 9);
     color: white;
     font-weight: 700;
     width: 100%;
@@ -427,8 +430,8 @@ nav{
 }
 
 .form__submit:active{
-    border-color: #f06449;
-    color: #f06449;
+    border-color: rgb(167, 9, 9);
+    color: rgb(167, 9, 9);
 }
 
 .modal__overlay{
@@ -571,10 +574,18 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #242424;
+}
+
+.footer__container{
+    padding: 50px 0;
+    width: 100%;
+   background-color: #242424
 }
 
 .footer__logo--img{
     width: 70px;
+    filter: invert();
    
 }
 
@@ -595,6 +606,7 @@ footer{
 
 .shape{
     position: fixed;
+    width: 30px;
 }
 
 .shape--0{
