@@ -67,7 +67,7 @@ input:focus, textarea:focus{
 .container{
     padding: 50px 0;
     width: 100%;
-   background-color: rgb(194, 189, 189)
+   background-color: lightgray
 }
 
 .row{
@@ -75,7 +75,7 @@ input:focus, textarea:focus{
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 12px;
-    background-color: rgb(194, 189, 189);
+    background-color: lightgray;
 }
 .click{
     cursor: pointer;
@@ -180,7 +180,7 @@ background-color: #242424 !important;
 
 #landing-page{
     min-height: 100vh;
-    background-color: rgb(194, 189, 189);
+    background-color: lightgray;
 }
 
 .header{
