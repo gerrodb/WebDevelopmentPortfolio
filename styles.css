@@ -499,13 +499,13 @@ padding: 28px;
 }
 
 .project{
-    margin-bottom: 50px;
+    margin-bottom: 50px !important; 
 }
 
 .project__img{
     width: 100%;
     transition: all 500ms ease;
-    transform: scale(1.02);
+    transform: scale(1.02) !important;
 }
 
 .project__wrapper{
