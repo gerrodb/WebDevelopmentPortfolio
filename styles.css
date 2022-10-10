@@ -498,9 +498,14 @@ padding: 28px;
     margin-bottom: 60px;
 }
 
+.project{
+    margin-bottom: 50px;
+}
+
 .project__img{
     width: 100%;
     transition: all 500ms ease;
+    transform: scale(1.02);
 }
 
 .project__wrapper{
@@ -552,7 +557,7 @@ padding: 28px;
 }
 
 .project__description--link{
-    color: white;
+    color: rgb(167, 9, 9);
     font-size: 20px;
     margin-right: 16px;
 }
